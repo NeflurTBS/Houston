@@ -1,0 +1,65 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 50%;
+}
+th,
+td,
+tr {
+  border: 1px solid black;
+}
+figcaption {
+  font-style: italic;
+  text-align: left;
+}
+figure {
+  clear:right;
+  float: right;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: DejaVu Sans Mono, monospace;
+  text-align: center;
+}
+ul{
+  text-align: left;
+}
+h1 {
+  font-size: 32px;
+}
+div{
+  border:1px solid black;
+  background-color: rgb(229, 240, 237);
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+p{
+  margin: 5px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+
+}
+body {
+  /*background: -webkit-linear-gradient(left, #ffffff, #9e9ea0);
+  background: -o-linear-gradient(right, #ffffff, #9e9ea0);
+  background: -moz-linear-gradient(right, #ffffff, #9e9ea0);
+  background: linear-gradient(right, #ffffff, #9e9ea0);
+  background-color: #ffffff;*/
+  background-image: url(1636964432_53-bogatyr-club-p-krasivii-fon-goroda-54.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  
+}
